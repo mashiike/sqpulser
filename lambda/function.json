@@ -1,0 +1,17 @@
+{
+  "FunctionName": "sqpulser",
+  "Handler": "index",
+  "MemorySize": 128,
+  "Role": "{{ must_env `SQPULSER_IAM_ROLE` }}",
+  "Runtime": "provided.al2",
+  "Environment": {
+    "Variables": {
+      "SQPULSER_LOG_LEVEL": "debug",
+      "SQPULSER_IN": "{{ must_env `SQPULSER_IN` }}",
+      "SQPULSER_OUT": "{{ must_env `SQPULSER_OUT` }}",
+      "SQPULSER_EMIT_INTERVAL": "30m",
+      "SQPULSER_OFFSET": "5m"
+    }
+  },
+  "Timeout": 10
+}
