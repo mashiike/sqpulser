@@ -7,9 +7,7 @@ require (
 	github.com/aws/aws-lambda-go v1.34.1
 	github.com/aws/aws-sdk-go-v2 v1.16.10
 	github.com/aws/aws-sdk-go-v2/config v1.15.17
-	github.com/aws/aws-sdk-go-v2/service/ecs v1.18.14
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.19.3
-	github.com/aws/smithy-go v1.12.1
 	github.com/fatih/color v1.13.0
 	github.com/fujiwara/logutils v1.1.0
 	github.com/ken39arg/go-flagx v0.0.0-20220608183922-7cf7c6c0093c
@@ -25,8 +23,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.11 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.12 // indirect
+	github.com/aws/smithy-go v1.12.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.9 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
