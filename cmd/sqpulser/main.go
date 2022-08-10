@@ -43,7 +43,7 @@ func main() {
 		offset       string
 	)
 	flag.CommandLine.Usage = func() {
-		fmt.Fprintln(flag.CommandLine.Output(), "awstee is a tee command-like tool with AWS as the output destination")
+		fmt.Fprintln(flag.CommandLine.Output(), "sqpulser is a tool for compiling SQS messages and emitting them in a pulsatile cycle")
 		fmt.Fprintln(flag.CommandLine.Output(), "version:", Version)
 		flag.CommandLine.PrintDefaults()
 	}
